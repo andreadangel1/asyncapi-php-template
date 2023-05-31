@@ -130,6 +130,10 @@ components:
         dateOfBirth:
           type: string
           format: date
+        roles:
+          type: array
+          items:
+            type: string
     DataTypes:
       type: object
       properties:
